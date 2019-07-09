@@ -1,5 +1,5 @@
 {
-  "name": "mevn-retail-site",
+  "name": "industry-challenge",
   "version": "1.0.0",
   "description": "A mock retail site using the MEVN stack",
   "author": "Stephen Redeker <sredeker@sapient.com>",
@@ -17,6 +17,8 @@
   "dependencies": {
     "axios": "^0.19.0",
     "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.25",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "foundation-sites": "^6.5.3",
@@ -24,8 +26,9 @@
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1",
     "nodemon": "^1.19.1",
-    "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.5.16"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
