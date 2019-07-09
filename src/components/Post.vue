@@ -1,8 +1,8 @@
 <template>
   <div class="post">
-    <div class = "card">
+    <div class="card">
         <v-layout>
-            <v-flex xs4>
+            <v-flex>
                 <v-card>
                     <v-img
                     class="white--text"
@@ -44,11 +44,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 .card {
+    min-width: 300px;
     margin: 10px;
-    border-right: 10px;
+    display: flex;
 
 }
-.container {
-    display: flex;
-}
+// .container {
+//     display: flex;
+// }
 </style>
