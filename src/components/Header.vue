@@ -13,8 +13,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 img {
-    width: 99.1%;
+    width: 100%;
     height: 300px;
-    border-radius: 5px;
+    border-radius: 0px;
+    top: 0;
 }
 </style>

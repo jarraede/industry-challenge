@@ -8,7 +8,7 @@
     <Post></Post>
     <Post></Post>
     <Assistant></Assistant>
-    <router-view/>
+    <router-view/>`
   </div>
 </template>
 
@@ -34,7 +34,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   // text-align: center;
   color: get-color(black);
-  margin-top: 60px;
 }
 .post {
   display: inline-block;
