@@ -20,6 +20,8 @@
       v-model="drawer"
       absolute
       temporary
+      right
+      persistent
     >
       <v-list class="pa-1">
         <v-list-tile avatar>
@@ -39,7 +41,6 @@
         <v-list-tile
           v-for="item in items"
           :key="item.title"
-          @click=""
         >
           <v-list-tile-action>
             <v-icon>{{ item.icon }}</v-icon>
@@ -56,18 +57,18 @@
 </template>
 
 <script>
-  export default {
-    name: 'Assistant',
-    data () {
-      return {
-        drawer: null,
-        items: [
-          { title: 'Home', icon: 'dashboard' },
-          { title: 'About', icon: 'question_answer' }
-        ]
-      }
+export default {
+  name: 'Assistant',
+  data () {
+    return {
+      drawer: null,
+      items: [
+        { title: 'Home', icon: 'dashboard' },
+        { title: 'About', icon: 'question_answer' }
+      ]
     }
   }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <Header></Header>
-    <Post></Post>
-    <Post></Post>
-    <Post></Post>
-    <Post></Post>
-    <Post></Post>
-    <Post></Post>
     <Assistant></Assistant>
+    <Post></Post>
+    <Post></Post>
+    <Post></Post>
+    <Post></Post>
+    <Post></Post>
+    <Post></Post>
     <router-view/>
   </div>
 </template>
