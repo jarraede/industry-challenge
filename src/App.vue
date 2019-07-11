@@ -3,12 +3,8 @@
     <Header></Header>
     <Assistant></Assistant>
     <Post></Post>
-    <Post></Post>
-    <Post></Post>
-    <Post></Post>
-    <Post></Post>
-    <Post></Post>
-    <router-view/>
+    <Assistant></Assistant>
+    <router-view/>`
   </div>
 </template>
 
@@ -34,9 +30,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   // text-align: center;
   color: get-color(black);
-  margin-top: 60px;
 }
-.post {
-  display: inline-block;
-}
+// .post {
+//   display: inline-block;
+// }
 </style>
