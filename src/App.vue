@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header></Header>
+    <Assistant></Assistant>
     <Post></Post>
     <Assistant></Assistant>
     <router-view/>`
