@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <img src="../assets/headerimage.jpg">
+    <img src="../assets/planetravel.jpg" class="center">
   </div>
 </template>
 
@@ -13,9 +13,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 img {
-    width: 100%;
+    width: auto;
     height: 300px;
     border-radius: 0px;
     top: 0;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
 </style>

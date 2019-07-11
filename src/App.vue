@@ -2,11 +2,6 @@
   <div id="app">
     <Header></Header>
     <Post></Post>
-    <Post></Post>
-    <Post></Post>
-    <Post></Post>
-    <Post></Post>
-    <Post></Post>
     <Assistant></Assistant>
     <router-view/>`
   </div>
@@ -35,7 +30,7 @@ export default {
   // text-align: center;
   color: get-color(black);
 }
-.post {
-  display: inline-block;
-}
+// .post {
+//   display: inline-block;
+// }
 </style>
