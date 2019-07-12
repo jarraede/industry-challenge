@@ -19,3 +19,10 @@ db.on("error", console.error.bind(console, "connection error"));
 db.once("open", function(callback){
   console.log("Mongoose Connection Succeeded");
 });
+
+var Amadeus = require('amadeus');
+
+var amadeus = new Amadeus({
+  clientId: '7nGoyi9dwiabdFKRvr7UKWIpGG0JCzka',
+  clientSecret: 'wPMxgTup7VZpP1MA'
+});
