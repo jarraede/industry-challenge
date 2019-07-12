@@ -3,7 +3,6 @@
     <Header></Header>
     <Assistant></Assistant>
     <Post></Post>
-    <Assistant></Assistant>
     <router-view/>`
   </div>
 </template>

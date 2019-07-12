@@ -1,11 +1,18 @@
 // eslint-disable-next-line
 /* eslint-disable */
 <template>
+<<<<<<< HEAD
   <div class="assistant">
   <v-layout
     wrap
     style="height: 100%;"
   > <!-- make vertical along right side -->
+=======
+  <v-layout
+    wrap
+    style="height: 200px;"
+  >
+>>>>>>> b648384bfe4a8460231d2b3ce142f17d0b4791d7
     <v-container>
       <v-layout justify-center>
         <v-btn
@@ -20,6 +27,7 @@
 
     <v-navigation-drawer
       v-model="drawer"
+<<<<<<< HEAD
       absolute
       temporary
     >
@@ -54,6 +62,19 @@
     </v-navigation-drawer>
   </v-layout>
   </div>
+=======
+      right
+      fixed
+      persistent
+    >
+      <v-card>
+        <v-card-text>{{ response }}</v-card-text>
+        <v-text-field label="Input" v-model="input"></v-text-field>
+        <v-btn color="blue darken-1" flat @click="sendInput">Respond</v-btn>
+      </v-card>
+    </v-navigation-drawer>
+  </v-layout>
+>>>>>>> b648384bfe4a8460231d2b3ce142f17d0b4791d7
 </template>
 
 <script>
@@ -62,14 +83,29 @@ export default {
   data () {
     return {
       drawer: null,
+<<<<<<< HEAD
       items: [
         { title: 'Home', icon: 'dashboard' },
         { title: 'About', icon: 'question_answer' }
       ]
+=======
+      input: ''
+    }
+  },
+  methods: {
+    sendInput () {
+      this.input = ''
+    }
+  },
+  computed: {
+    response: function () {
+      return 'How can I help you?'
+>>>>>>> b648384bfe4a8460231d2b3ce142f17d0b4791d7
     }
   }
 }
 </script>
+<<<<<<< HEAD
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
@@ -77,3 +113,5 @@ export default {
     display: right;
 }
 </style>
+=======
+>>>>>>> b648384bfe4a8460231d2b3ce142f17d0b4791d7
