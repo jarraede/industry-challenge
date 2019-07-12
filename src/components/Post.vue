@@ -54,6 +54,8 @@ export default {
 
 .pt-4 {
     display: center;
+    height: 300px;
+    width: 400px;
 }
 
 </style>
