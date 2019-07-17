@@ -24,6 +24,7 @@
 </template>
 
 <script>
+import db from '@/firebase'
 export default {
   name: 'Post',
   data () {
@@ -47,15 +48,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-.text-xs-center ma-3 {
-    max-height: 300px;
-    width: 400px;
-}
-
-.pt-4 {
-    display: center;
-    height: 300px;
-    width: 400px;
-}
+// .text-xs-center ma-3 {
+//     max-height: 300px;
+//     width: 400px;
+// }
 
 </style>
