@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <img src="../assets/planetravel.jpg" class="center">
+    <img src="../assets/header2.png" class="center">
   </div>
 </template>
 
@@ -14,9 +14,9 @@ export default {
 <style lang="scss" scoped>
 img {
     width: auto;
-    height: 300px;
+    height: 250px;
     border-radius: 0px;
-    top: 0;
+    padding-top: 30px;
 }
 .center {
   display: block;
