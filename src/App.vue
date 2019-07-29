@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <Header></Header>
-    <Assistant></Assistant>
+    <!-- <Assistant></Assistant> -->
     <Post></Post>
-    <router-view/>`
+    <router-view/>
   </div>
 </template>
 
@@ -51,6 +51,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   // text-align: center;
   color: get-color(black);
+  background-color:#272727;
 }
 // .post {
 //   display: inline-block;
